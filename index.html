@@ -261,9 +261,38 @@
         </div>
     </section>
 
+    <!-- Chat Widget -->
+    <button id="chat-fab" aria-label="Chat with AI"><i class="fas fa-comment-dots"></i></button>
+    <div id="chat-box">
+        <div id="chat-header">
+            <div class="chat-header-info">
+                <div class="chat-avatar"><i class="fas fa-robot"></i></div>
+                <div>
+                    <div class="chat-title">Ask about Sita Ram</div>
+                    <div class="chat-subtitle">AI-powered · Groq</div>
+                </div>
+            </div>
+            <button id="chat-close"><i class="fas fa-times"></i></button>
+        </div>
+        <div id="chat-messages"></div>
+        <div id="chat-mode-picker">
+            <p>How would you like to chat?</p>
+            <div class="mode-btns">
+                <button class="mode-btn" data-mode="voice"><i class="fas fa-microphone"></i><span>Voice Mode</span><small>I'll speak & listen</small></button>
+                <button class="mode-btn" data-mode="text"><i class="fas fa-keyboard"></i><span>Text Mode</span><small>Classic chat</small></button>
+            </div>
+        </div>
+        <div id="chat-input-row">
+            <button id="chat-mic" title="Speak your question"><i class="fas fa-microphone"></i></button>
+            <input id="chat-input" type="text" placeholder="Ask me anything..." autocomplete="off">
+            <button id="chat-send"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
     <!-- Scripts -->
     <script src="js/particles.js"></script>
     <script src="js/typewriter.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/chat.js"></script>
 </body>
 </html>
