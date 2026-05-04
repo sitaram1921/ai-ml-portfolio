@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sita Ram Prasad Martha | AI/ML & Full Stack Developer</title>
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=DM+Sans:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/variable.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+</head>
+<body>
+    <div id="scroll-progress"></div>
+    <div id="cursor-arrow">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 20 24">
+            <path d="M2,2 L2,20 L6,15 L9,22 L12,21 L9,14 L15,14 Z" fill="#00d4ff"/>
+        </svg>
+    </div>
+    <div id="loader"><div class="loader-logo">SRM</div></div>
+
+    <nav id="navbar">
+        <a href="#" class="logo">SRM<span>.</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certs</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="assets/resume.pdf" class="nav-cta" target="_blank">RESUME</a>
+    </nav>
+
+    <section id="hero">
+        <canvas id="hero-canvas"></canvas>
+        <div class="hero-content">
+            <h1 class="hero-name">Sita Ram Prasad Martha</h1>
+            <div id="typewriter" class="hero-typewriter"></div>
+            <p class="hero-tagline">Building real-time, data-driven systems that bridge AI intelligence with intuitive user experiences.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="assets/resume.pdf" class="btn btn-outline" target="_blank">Download Resume</a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/sitaram1921" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/sitaramprasad" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:sitaramprasadmartha@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="reveal">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>I'm a Full Stack Python Developer with deep expertise in AI/ML, currently completing my MS in Computer Science at NC A&T State University (GPA: 3.79/4.0). I specialize in building end-to-end intelligent systems — from training custom computer vision models with PyTorch and YOLO to deploying real-time APIs with FastAPI and building responsive React dashboards.</p>
+                <p>My work spans autonomous detection systems, data-driven telemetry platforms, and AI-powered web applications. I'm actively seeking full-time opportunities in the USA starting January 2026.</p>
+            </div>
+            <div class="quick-facts">
+                <div class="glass-card fact-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h4>MS Computer Science</h4>
+                    <p>NC A&T (2025)</p>
+                </div>
+                <div class="glass-card fact-card">
+                    <i class="fas fa-code"></i>
+                    <h4>Full Stack + AI</h4>
+                    <p>Python/React/ML</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="reveal">
+        <h2 class="section-title">Technical Arsenal</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Languages & Backend</h3>
+                <div class="skill-item"><div class="skill-info"><span>Python</span><span>95%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-percent="95%"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span>FastAPI / Flask</span><span>90%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-percent="90%"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span>SQL / PostgreSQL</span><span>85%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-percent="85%"></div></div></div>
+            </div>
+            <div class="skill-category">
+                <h3>AI / Machine Learning</h3>
+                <div class="skill-item"><div class="skill-info"><span>PyTorch / YOLO</span><span>88%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-percent="88%"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span>OpenCV / ONNX</span><span>85%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-percent="85%"></div></div></div>
+                <div class="skill-item"><div class="skill-info"><span>LangChain / RAG</span><span>80%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" data-percent="80%"></div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="reveal">
+        <h2 class="section-title">Professional Journey</h2>
+        <div class="timeline" id="experience-timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="glass-card">
+                    <h3>Graduate Research Assistant – CR2C2</h3>
+                    <p class="exp-meta">NC A&T State University | Jan 2024 – Dec 2025</p>
+                    <ul class="exp-list">
+                        <li>Architected real-time animal detection platform integrating YOLO models with driving simulators.</li>
+                        <li>Built WebSocket-based telemetry streaming with FastAPI and JS.</li>
+                        <li>Optimized inference on GPU using ONNX Runtime.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="glass-card">
+                    <h3>Software Developer</h3>
+                    <p class="exp-meta">ValueLabs | Mar 2022 – Jul 2023</p>
+                    <ul class="exp-list">
+                        <li>Developed responsive components using React.js and Redux.</li>
+                        <li>Built secure REST APIs with FastAPI and JWT authentication.</li>
+                        <li>Optimized PostgreSQL queries and database schemas.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="reveal">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="glass-card project-card">
+                <span class="badge">AI/ML + Full Stack</span>
+                <h3>Real-Time Animal Detection</h3>
+                <p>NCDOT-funded platform featuring live telemetry, object detection, and streaming dashboard.</p>
+                <div class="tech-tags"><span>Python</span><span>PyTorch</span><span>FastAPI</span><span>Docker</span></div>
+            </div>
+            <div class="glass-card project-card">
+                <span class="badge">Generative AI</span>
+                <h3>AI Code Analysis Platform</h3>
+                <p>Secure coding environment with GPT-4 integration for automated bug detection and fixes.</p>
+                <div class="tech-tags"><span>React</span><span>GPT-4</span><span>FastAPI</span><span>AWS ECS</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="reveal">
+        <h2 class="section-title">Certifications</h2>
+        <div class="cert-filters">
+            <button class="cert-filter active" data-filter="all">All</button>
+            <button class="cert-filter" data-filter="cloud">Cloud & Data</button>
+            <button class="cert-filter" data-filter="programming">Programming</button>
+            <button class="cert-filter" data-filter="google">Google</button>
+            <button class="cert-filter" data-filter="udemy">Udemy</button>
+        </div>
+        <div class="cert-grid">
+
+            <div class="cert-card" data-category="cloud" data-file="assets/certifications/microsoft-azure.pdf" data-type="pdf" style="--cert-color:#0078D4">
+                <div class="cert-popup"><canvas class="cert-canvas"></canvas></div>
+                <div class="cert-header"><i class="fab fa-microsoft"></i><span>Microsoft</span></div>
+                <div class="cert-body"><h4>Azure Data Fundamentals</h4><p class="cert-sub">DP-900 · Score: 833</p></div>
+                <div class="cert-footer"><span class="cert-date"><i class="fas fa-calendar-alt"></i> Aug 2022</span><button class="cert-view-btn">View <i class="fas fa-external-link-alt"></i></button></div>
+            </div>
+
+            <div class="cert-card" data-category="programming" data-file="assets/certifications/python-pcap.pdf" data-type="pdf" style="--cert-color:#3776AB">
+                <div class="cert-popup"><canvas class="cert-canvas"></canvas></div>
+                <div class="cert-header"><i class="fab fa-python"></i><span>Python Institute</span></div>
+                <div class="cert-body"><h4>PCAP: Programming Essentials in Python</h4><p class="cert-sub">Cisco ISTE Academy</p></div>
+                <div class="cert-footer"><span class="cert-date"><i class="fas fa-calendar-alt"></i> Mar 2020</span><button class="cert-view-btn">View <i class="fas fa-external-link-alt"></i></button></div>
+            </div>
+
+            <div class="cert-card" data-category="programming" data-file="assets/certifications/cisco-cla-c.pdf" data-type="pdf" style="--cert-color:#1BA0D7">
+                <div class="cert-popup"><canvas class="cert-canvas"></canvas></div>
+                <div class="cert-header"><i class="fas fa-code"></i><span>C++ Institute / Cisco</span></div>
+                <div class="cert-body"><h4>CLA: Programming Essentials in C</h4><p class="cert-sub">Cisco Networking Academy · VJIT</p></div>
+                <div class="cert-footer"><span class="cert-date"><i class="fas fa-calendar-alt"></i> Feb 2019</span><button class="cert-view-btn">View <i class="fas fa-external-link-alt"></i></button></div>
+            </div>
+
+            <div class="cert-card" data-category="cloud" data-file="assets/certifications/oracle-plsql.pdf" data-type="pdf" style="--cert-color:#C74634">
+                <div class="cert-popup"><canvas class="cert-canvas"></canvas></div>
+                <div class="cert-header"><i class="fas fa-database"></i><span>Oracle Academy</span></div>
+                <div class="cert-body"><h4>Database Programming with PL/SQL</h4><p class="cert-sub">Oracle Authorized Course</p></div>
+                <div class="cert-footer"><span class="cert-date"><i class="fas fa-calendar-alt"></i> Sep 2020</span><button class="cert-view-btn">View <i class="fas fa-external-link-alt"></i></button></div>
+            </div>
+
+            <div class="cert-card" data-category="google" data-file="assets/certifications/google-networking.pdf" data-type="pdf" style="--cert-color:#4285F4">
+                <div class="cert-popup"><canvas class="cert-canvas"></canvas></div>
+                <div class="cert-header"><i class="fab fa-google"></i><span>Google / Coursera</span></div>
+                <div class="cert-body"><h4>Bits and Bytes of Computer Networking</h4><p class="cert-sub">Google IT Support Program</p></div>
+                <div class="cert-footer"><span class="cert-date"><i class="fas fa-calendar-alt"></i> Sep 2020</span><button class="cert-view-btn">View <i class="fas fa-external-link-alt"></i></button></div>
+            </div>
+
+            <div class="cert-card" data-category="google" data-file="assets/certifications/google-tech-support.pdf" data-type="pdf" style="--cert-color:#4285F4">
+                <div class="cert-popup"><canvas class="cert-canvas"></canvas></div>
+                <div class="cert-header"><i class="fab fa-google"></i><span>Google / Coursera</span></div>
+                <div class="cert-body"><h4>Technical Support Fundamentals</h4><p class="cert-sub">Google IT Support Program</p></div>
+                <div class="cert-footer"><span class="cert-date"><i class="fas fa-calendar-alt"></i> Sep 2020</span><button class="cert-view-btn">View <i class="fas fa-external-link-alt"></i></button></div>
+            </div>
+
+            <div class="cert-card" data-category="cloud" data-file="assets/certifications/six-sigma.pdf" data-type="pdf" style="--cert-color:#00a651">
+                <div class="cert-popup"><canvas class="cert-canvas"></canvas></div>
+                <div class="cert-header"><i class="fas fa-chart-line"></i><span>6sigmastudy</span></div>
+                <div class="cert-body"><h4>Six Sigma Yellow Belt</h4><p class="cert-sub">VMEdu · SSYB Professional</p></div>
+                <div class="cert-footer"><span class="cert-date"><i class="fas fa-calendar-alt"></i> Jul 2022</span><button class="cert-view-btn">View <i class="fas fa-external-link-alt"></i></button></div>
+            </div>
+
+            <div class="cert-card" data-category="udemy" data-file="assets/certifications/udemy-html5.jpg" data-type="img" style="--cert-color:#A435F0">
+                <div class="cert-popup"><img src="assets/certifications/udemy-html5.jpg" alt="HTML5 Certificate"></div>
+                <div class="cert-header"><i class="fas fa-graduation-cap"></i><span>Udemy</span></div>
+                <div class="cert-body"><h4>Complete HTML5 Course: Beginner to Expert</h4><p class="cert-sub">3 hrs · Creative Online School</p></div>
+                <div class="cert-footer"><span class="cert-date"><i class="fas fa-calendar-alt"></i> Jul 2020</span><button class="cert-view-btn">View <i class="fas fa-external-link-alt"></i></button></div>
+            </div>
+
+            <div class="cert-card" data-category="udemy" data-file="assets/certifications/udemy-wordpress.jpg" data-type="img" style="--cert-color:#A435F0">
+                <div class="cert-popup"><img src="assets/certifications/udemy-wordpress.jpg" alt="WordPress Certificate"></div>
+                <div class="cert-header"><i class="fab fa-wordpress"></i><span>Udemy</span></div>
+                <div class="cert-body"><h4>WordPress For Beginners</h4><p class="cert-sub">1 hr · Ihsan Murad</p></div>
+                <div class="cert-footer"><span class="cert-date"><i class="fas fa-calendar-alt"></i> Sep 2020</span><button class="cert-view-btn">View <i class="fas fa-external-link-alt"></i></button></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Certificate Modal -->
+    <div id="cert-modal" class="cert-modal-overlay">
+        <div class="cert-modal-box">
+            <button id="cert-modal-close"><i class="fas fa-times"></i></button>
+            <div id="cert-modal-content"></div>
+        </div>
+    </div>
+
+    <section id="news" class="reveal">
+        <h2 class="section-title">In the News</h2>
+        <div class="news-card glass-card">
+            <div class="news-meta">
+                <span class="news-outlet">Spectrum News NC</span>
+                <span class="news-date">December 9, 2025</span>
+            </div>
+            <h3 class="news-headline">AI on the road: N.C. A&T students develop software to prevent cars from hitting animals</h3>
+            <p class="news-desc">North Carolina A&T researchers built AI software that detects deer, dogs, and other animals in both autonomous and manually operated vehicles — filling the gap where standard proximity sensors fall short. As the lead developer, I built the driving simulator and spearheaded the project at the Center for Regional and Rural Connected Communities, funded by the university and targeting commercial transportation partnerships.</p>
+            <div class="news-video-wrap">
+                <video controls poster="">
+                    <source src="assets/news-video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <a href="https://spectrumlocalnews.com/nc/charlotte/news/2025/12/09/ai--artificial-intelligence--nca-t" target="_blank" class="news-link">
+                <i class="fas fa-external-link-alt"></i> Read Full Article — Reported by Sasha Strong
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="reveal">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> sitaramprasadmartha@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +1 3364051403</p>
+                <p><i class="fas fa-map-marker-alt"></i> Greensboro, NC (Open to Relocation)</p>
+                <div class="availability">🟢 Seeking Full-Time Roles - Jan 2026</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="js/particles.js"></script>
+    <script src="js/typewriter.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

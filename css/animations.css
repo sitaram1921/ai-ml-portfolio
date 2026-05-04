@@ -1,0 +1,23 @@
+/* Custom Cursor Arrow */
+#cursor-arrow {
+    position: fixed;
+    top: 0; left: 0;
+    pointer-events: none;
+    z-index: 3000;
+    filter: drop-shadow(0 0 4px rgba(0, 212, 255, 0.6));
+    display: block;
+}
+
+/* Loader */
+#loader {
+    position: fixed; inset: 0; background: var(--bg-primary);
+    z-index: 5000; display: flex; justify-content: center; align-items: center;
+}
+.loader-logo { font-family: 'Orbitron'; font-size: 3rem; color: var(--accent-primary); animation: pulse 1s infinite alternate; }
+
+/* Reveal on Scroll */
+.reveal { opacity: 0; transform: translateY(30px); transition: 0.8s all ease; }
+.reveal.active { opacity: 1; transform: translateY(0); }
+
+@keyframes pulse { from { opacity: 0.5; } to { opacity: 1; } }
+@keyframes blink { 50% { opacity: 0; } }
